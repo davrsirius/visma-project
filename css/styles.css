@@ -158,7 +158,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 250px;
 }
 
 .services {
@@ -237,4 +237,126 @@ body {
   font-weight: 700;
   font-size: 19px;
   line-height: 1.4;
+}
+
+
+/* About company */
+
+.about-comp {
+  margin-bottom: 260px;
+}
+
+.about-comp-heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #333333;
+  margin-bottom: 60px;
+}
+
+.about-comp-content {}
+
+.about-comp-text-wrapper {
+  width: 636px;
+  height: 550px;
+}
+
+
+.about-comp-wrapper-text {
+  margin-bottom: 16px;
+}
+
+.about-comp-text-wrapper ul {
+  margin: 0 0 16px;
+  padding: 0 0 0 30px;
+}
+
+.about-comp-text-wrapper ul li {
+  margin-bottom: 16px;
+}
+
+.about-comp-text-wrapper ul li:last-child {
+  margin-bottom: 0;
+}
+
+
+.about-comp-images {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 526px;
+  height: 550px;
+}
+
+.card-image-with-overlay {
+  position: relative;
+  width: 526px;
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about-comp-images-img {
+  max-width: 100%;
+  display: block;
+}
+
+
+.image-with-icon {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.icon-image {
+  position: absolute;
+}
+
+
+/* overlay styles */
+
+.overlay {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 52, 139, 0.5);
+  /* display: grid;
+  place-items: center; */
+
+}
+
+.card-image-with-overlay:hover .overlay {
+  visibility: visible;
+  cursor: pointer;
+}
+
+
+
+.about-comp-images-card {
+  padding: 30px 35px;
+  width: 526px;
+  height: 170px;
+  background-color: #5DB7DE;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-comp-images-card-heading {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.about-comp-images-card-text {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 140%;
 }
